@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Page</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset style="background-color: rgb(155, 20, 20);">
+            <legend style="background-color: aqua">Personal Data</legend>
+            <br>
+            <fieldset style="background-color: rgb(180, 122, 28);">
+                <legend style="height: 100px; background-color: lightblue;"><br><br>YourName</legend>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="width: 100px"><label for="fname">first name</label></td>
+                            <td style="width: 14px">:</td>
+                            <td><input id="fname" name="firstName" type="text" placeholder="ex. Beshoy"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="sname">second name</label></td>
+                            <td>:</td>
+                            <td><input id="sname" name="secondtName" type="text" placeholder="ex. William"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+            <br>
+            <br>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="width: 115px"><label for="phNumber"><b>your phone</b></label></td>
+                        <td style="width: 14px">:</td>
+                        <td><input id="phNumber" name="phoneNumber" type="tel"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email"><b>Email</b></label></td>
+                        <td>:</td>
+                        <td><input id="email" name="Email" type="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="pass"><b>password</b></label></td>
+                        <td>:</td>
+                        <td><input id="pass" name="password" type="password"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="re-pass"><b>re-password</b></label></td>
+                        <td>:</td>
+                        <td><input id="re-pass" name="re-password" type="password"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <br>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input id="male" name="gender" type="radio"></td>
+                        <td><label for="male">Male</label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="female" name="gender" type="radio"></td>
+                        <td><label for="female">Female</label></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <br>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input id="html" name="Skills" type="checkbox" value="HTML"></td>
+                        <td><label for="html">HTML</label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="css" name="Skills" type="checkbox" value="CSS"></td>
+                        <td><label for="css">CSS</label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="js" name="Skills" type="checkbox" value="JS"></td>
+                        <td><label for="js">JS</label></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <br>
+
+            <select name="Cars">
+                <option selected hidden>Choose your car</option>
+                <optgroup label="BMW">
+                    <option value="BM16">316i</option>
+                    <option value="BM32">320i</option>
+                    <option value="BM34">340i</option>
+                </optgroup>
+                <optgroup label="Mercedes">
+                    <option value="MR18">c180</option>
+                    <option value="MR20">c200</option>
+                    <option value="MRsc">sclass</option>
+                </optgroup>
+                <optgroup label="Volvo" disabled>
+                    <option value="V40">xc40</option>
+                    <option value="V60">xc60</option>
+                    <option value="V90">xc90</option>
+                </optgroup>
+            </select>
+
+            <br>
+            <br>
+
+            <input type="image" src="images/submit.png" alt="submit" style="width: 80px;">
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
